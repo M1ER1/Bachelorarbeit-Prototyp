@@ -1,4 +1,4 @@
-const openaiApiKey = "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";
+const openaiApiKey = "Hier muss der eigene OpenAI-API-Key eingefügt werden."; // ACHTUNG!
 
 export function initOptimization() {
   document.getElementById("optimizeButton").addEventListener("click", async function () {
