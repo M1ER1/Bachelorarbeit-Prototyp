@@ -1,5 +1,5 @@
 # Vorbereitung
-Das Projekt ist vollständig vorbereitet. Quellcode, Struktur und Konfigurationsdateien sind enthalten. Es sind lediglich einige Installationen durchzuführen. 
+Der Prototyp ist vollständig vorbereitet. Source-Code und Konfigurationsdateien sind enthalten. Es sind lediglich zwei Installationen durchzuführen. 
 Zudem muss in der Datei `optimization.js` (Pfad: `Bachelorarbeit-Prototyp-main/src/frontend/js/optimization.js`) in der ersten Zeile ein eigener OpenAI-API-Key eingefügt werden, damit die Anwendung korrekt funktioniert.
 
 ---
@@ -21,5 +21,5 @@ Zudem muss in der Datei `optimization.js` (Pfad: `Bachelorarbeit-Prototyp-main/s
 
 ---
 
-3. **Projekt starten**
-- Im Terminal im Projektordner ausführen:  npm start
+3. **Prototyp starten**
+- Im Terminal im Projektordner ausführen: npm start
