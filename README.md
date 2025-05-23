@@ -8,7 +8,7 @@ Zudem muss in der Datei `optimization.js` (Pfad: `Bachelorarbeit-Prototyp-main/s
 - Download der aktuellen LTS-Version unter: https://nodejs.org  
 - Installation mit Standardeinstellungen  
 - Überprüfung der Installation im Terminal:
-  node -v
+  node -v<br>
   npm -v
   
   Wenn beide Befehle eine Versionsnummer ausgeben, ist die Installation erfolgreich.
