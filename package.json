@@ -1,0 +1,15 @@
+{
+  "name": "auditoptimizer",
+  "version": "1.0.0",
+  "description": "Datenschutzkonforme Optimierung der IT-Audit-Dokumentation",
+  "main": "src/backend/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-packager . AuditOptimizerMAC --platform=darwin --arch=arm64 --out=exe_mac/",
+    "build:win": "electron-packager . AuditOptimizerWINDOWS --platform=win32 --arch=x64 --out=exe_win/ --win32metadata.ProductName=''"
+  },
+  "devDependencies": {
+    "electron": "^35.2.1",
+    "electron-packager": "^17.1.2"
+  }
+}
