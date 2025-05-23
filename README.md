@@ -2,6 +2,7 @@
 Das Projekt ist vollständig vorbereitet. Quellcode, Struktur und Konfigurationsdateien sind enthalten. Es sind lediglich einige Installationen durchzuführen. 
 Zudem muss in der Datei `optimization.js` (Pfad: `Bachelorarbeit-Prototyp-main/src/frontend/js/optimization.js`) in der ersten Zeile ein eigener OpenAI-API-Key eingefügt werden, damit die Anwendung korrekt funktioniert.
 
+---
 
 1. **Node.js installieren**
 - Download der aktuellen LTS-Version unter: https://nodejs.org  
@@ -12,11 +13,13 @@ Zudem muss in der Datei `optimization.js` (Pfad: `Bachelorarbeit-Prototyp-main/s
   
   Wenn beide Befehle eine Versionsnummer ausgeben, ist die Installation erfolgreich.
 
+---
 
 2. **Electron installieren**
 - Projektordner `Bachelorarbeit-Prototyp-main` im Terminal öffnen  
 - Ausführen: npm install electron --save-dev
 
+---
 
 3. **Projekt starten**
 - Im Terminal im Projektordner ausführen:  npm start
