@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BDO Audit Kommentar Optimierung</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <img src="assets/bdo_logo.png" alt="BDO Austria" class="logo" />
+    <h2 class="text-center text-dark fw-bold">Optimierung von IT-Audit-Kommentaren</h2>
+
+    <div class="card-custom mt-4">
+      <form id="auditForm">
+        <h4 class="text-dark mb-4">Klienten- & Ansprechpartner*innen-Details</h4>
+        <div class="form-section">
+          <label for="clientName" class="form-label fw-bold">Klientenname</label>
+          <input type="text" class="form-control" id="clientName" required />
+        </div>
+        <div class="form-section" id="contactPersonsContainer">
+          <label class="form-label fw-bold">Hauptansprechpartner*in</label>
+          <div class="d-flex">
+            <input type="text" class="form-control contactPerson" />
+          </div>
+          <button type="button" class="btn btn-add mt-2" id="addContact">+ Ansprechpartner*in hinzufügen</button>
+        </div>
+        <div class="form-section" id="externalServicesContainer">
+          <label class="form-label fw-bold">Externer Dienstleister</label>
+          <div class="d-flex">
+            <input type="text" class="form-control externalService" />
+          </div>
+          <button type="button" class="btn btn-add mt-2" id="addExternalService">+ Dienstleister hinzufügen</button>
+        </div>
+        <div class="form-section">
+          <label for="auditComment" class="form-label fw-bold">Audit Kommentar</label>
+          <textarea class="form-control" id="auditComment" rows="6" required></textarea>
+        </div>
+        <button type="button" class="btn btn-primary w-100" id="maskButton">Maskieren</button>
+      </form>
+    </div>
+
+    <div class="card-custom">
+      <h4 class="text-dark">Maskierter Kommentar (bearbeitbar):</h4>
+      <div class="output-box" id="maskedOutput" contenteditable="false">Noch keine Maskierung durchgeführt.</div>
+      <button type="button" class="btn btn-primary w-100 mt-3" id="optimizeButton"
+        style="display: none;">Optimieren</button>
+      <div id="loadingSpinner">
+        <div class="spinner-border text-danger" role="status"></div>
+        <p class="mt-2">Kommentar wird optimiert...</p>
+      </div>
+    </div>
+
+    <div class="card-custom">
+      <h4 class="text-dark">Optimierter Kommentar:</h4>
+      <div class="output-box" id="optimizedOutput">Noch keine Optimierung durchgeführt.</div>
+      <button class="btn btn-primary mt-3 w-100" id="copyButton" style="display: none;">Text Kopieren</button>
+    </div>
+
+    <button type="button" class="btn btn-primary w-100 mt-3" id="resetButton">Felder zurücksetzen</button>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

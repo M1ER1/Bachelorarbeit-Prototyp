@@ -1,0 +1,108 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin-top: 40px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 200px;
+}
+
+/* Unsere roten Primary-Buttons */
+.btn-primary {
+  background-color: #e81a3b;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #b5152c;
+}
+
+.btn-add {
+  background-color: #22409a;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  margin-top: 5px;
+}
+
+.btn-add:hover {
+  background-color: #1a317a;
+}
+
+.btn-remove {
+  background-color: #d9534f;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  margin-left: 5px;
+}
+
+.btn-remove:hover {
+  background-color: #b52b27;
+}
+
+.output-box {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 6px;
+  min-height: 50px;
+  font-size: 15px;
+  white-space: pre-wrap;
+  border: 1px solid #ddd;
+}
+
+.card-custom {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.form-section {
+  margin-bottom: 25px;
+}
+
+/* Spinner: erscheint unter dem Optimieren-Button */
+#loadingSpinner {
+  display: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Farbige Maskierung */
+.mask-klient {
+  color: red;
+  font-weight: bold;
+}
+
+.mask-ansprechperson {
+  color: blue;
+  font-weight: bold;
+}
+
+.mask-dienstleister {
+  color: green;
+  font-weight: bold;
+}
