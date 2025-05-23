@@ -7,7 +7,7 @@ Zudem muss in der Datei `optimization.js` (Pfad: `Bachelorarbeit-Prototyp-main/s
 1. **Node.js installieren**
 - Download der aktuellen LTS-Version unter: https://nodejs.org  
 - Installation mit Standardeinstellungen  
-- Überprüfung der Installation im Terminal:
+- Überprüfung der Installation im Terminal:<br>
   node -v<br>
   npm -v
   
