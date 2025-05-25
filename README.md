@@ -10,7 +10,6 @@ Zudem muss in der Datei `optimization.js` (Pfad: `Bachelorarbeit-Prototyp-main/s
 - Überprüfung der Installation im Terminal:
   - node -v
   - npm -v
-  
   Wenn beide Befehle eine Versionsnummer ausgeben, ist die Installation erfolgreich.
 
 ---
